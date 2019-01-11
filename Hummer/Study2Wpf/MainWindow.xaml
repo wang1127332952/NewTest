@@ -8,5 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <!--新加一个项目-->
+        <Grid Margin="20,20,120,189">
+            <Button>test</Button>
+            <!--<AccessText>就是这么客气 再来一次</AccessText>-->
+        </Grid>
     </Grid>
 </Window>
