@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{995AD541-ADC8-48CB-9E6F-734F8F84221C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyWpf", "WpfApp1\StudyWpf.csproj", "{995AD541-ADC8-48CB-9E6F-734F8F84221C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
