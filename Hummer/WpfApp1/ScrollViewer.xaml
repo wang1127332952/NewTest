@@ -1,16 +1,14 @@
-﻿<Window x:Class="Study2Wpf.MainWindow"
+﻿<Window x:Class="WpfApp1.ScrollViewer"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Study2Wpf"
+        xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ScrollViewer" Height="300" Width="300">
     <Grid>
-        <!--新加一个项目-->
-        <Grid Margin="20,20,120,189">
-            <Button>test</Button>
-            <!--<AccessText>就是这么客气 再来一次</AccessText>-->
-        </Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Auto">
+            <Rectangle Width="500" Height="400" Fill="Green"/>
+        </ScrollViewer>
     </Grid>
 </Window>

@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid Margin="20,20,120,189">
-            <Button>test</Button>
-            <!--<AccessText>就是这么客气 再来一次</AccessText>-->
-        </Grid>
+        <Canvas Margin="10,10,10,10" Background="White" >
+            <Rectangle Name="rect" Canvas.Left="300" Canvas.Top="180" Fill="Black" Stroke="Red"  Width="200" Height="200"/>
+            <Ellipse  Name="el" Canvas.Left="160" Canvas.Top="150" Fill="Azure" Stroke="Green" Width="180" Height="180"/>
+        </Canvas>
     </Grid>
 </Window>
